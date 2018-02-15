@@ -43,3 +43,4 @@ Con esta API tú podrás:
 - EC6.
 - API FLICKR.
 - Bootstrap.
+- API de Google Maps.
