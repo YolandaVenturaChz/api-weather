@@ -32,8 +32,8 @@ Con esta API tú podrás:
 
 ## Formas de distribucción del proyecto
 
-* Yosseline : Manejo de la API Swapi
-* Yolanda: Enmaquetado de las ventanas y manejo de la API Flickr.
+* Yosseline : Manejo de la API Swapi y últimos estilos en el maquetado.
+* Yolanda: Maquetado de las ventanas y manejo de la API Flickr.
 * Andrea : Readme y búsqueda de información.
 
 ## Herramientas usadas:
