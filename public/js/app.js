@@ -1,8 +1,9 @@
 var asyncRequestObject = new XMLHttpRequest();
 var proxy = 'https://cors-anywhere.herokuapp.com/';
-var apiLinkDS = 'https://api.darksky.net/forecast/bcfb332dbff54b0b470a2c8cbad6e360/-12.145598,%20-77.022311?lang=es';
+var apiLinkDS = 'https://api.darksky.net/forecast/bcfb332dbff54b0b470a2c8cbad6e360/';
+var finalLink = 'https://api.darksky.net/forecast/bcfb332dbff54b0b470a2c8cbad6e360/' + localStorage.Lat + ',%20' + localStorage.Lng + '?lang=es';
 
-asyncRequestObject.open('GET', proxy + apiLinkDS);
+asyncRequestObject.open('GET', proxy + finalLink);
 asyncRequestObject.onload = handleSuccess;
 asyncRequestObject.onerror = handleError;
 asyncRequestObject.send();
