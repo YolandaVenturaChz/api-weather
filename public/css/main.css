@@ -19,3 +19,12 @@ a.btn.btn-secondary{
 a.margin-top-2{
   margin-top: 2vh;
 }
+img.img-fluid.icons{
+  width: 20px;
+}
+.flex-inline{
+  display: inline-flex;
+}
+.margin-right-1{
+  margin-right: 1vw;
+}

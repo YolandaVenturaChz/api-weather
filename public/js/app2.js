@@ -8,12 +8,10 @@ asyncRequestObject.onload = handleSuccess;
 asyncRequestObject.onerror = handleError;
 asyncRequestObject.send();
 
-
 function handleSuccess () {
   var data = JSON.parse( this.responseText );
   var dataDaily = data['daily'];
   var dataDaily2 = data['daily']['data'];
-  console.log(dataDaily2);
 
 console.log(data['daily']['data'].length - 2);
 
@@ -31,6 +29,29 @@ console.log(data['daily']['data'].length - 2);
     }
   }
   dataDailyTravel();
+
+  /* Función que falta aplicar
+  var iconsView2 = document.getElementsByClassName('icons-second-view');
+  console.log(dataDaily2);
+
+  function iconsTravel () {
+    for (var i = 0; i < dataDaily2.length; i++) {
+      for (var j = 0; j<= iconsView2.length; j++) {
+        switch (dataDaily2[i]['icon']) {
+          case 'sun': iconsView2[i].src = '../assets/images/sun.png';
+          console.log(iconsView2[i]);
+            break;
+          case 'partly-cloudy-day': iconsView2[i].src = '../assets/images/cloudy.png';
+            break;
+          case 'cloudy': iconsView2[i].src = '../assets/images/cloudy.png';
+            break;
+          case 'rain': iconsView2[i].src = '../assets/images/rain.png';
+            break;
+          }
+      }
+    }
+  }
+  iconsTravel();*/
 }
 
 function handleError () {
