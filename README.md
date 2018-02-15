@@ -10,7 +10,7 @@
 
 ## Sobre Dark Sky Weather
 
-Es una empresa que ofrece datos oportunos y actualizados de las predicciones del clima de acuerdo a tu localización. Deberás obtener un API Key para usar sus servicios.
+- Es una empresa que ofrece datos oportunos y actualizados de las predicciones del clima de acuerdo a tu localización. Deberás obtener un API Key para usar sus servicios.
 
 Con esta API tú podrás:
 - Pedir la localización para obtener los datos del clima del día y lugar actual.
@@ -32,7 +32,7 @@ Con esta API tú podrás:
 
 ## Formas de distribucción del proyecto
 
-* Yosselyn : Manejo de la API Swapi
+* Yosselinen : Manejo de la API Swapi
 * Yolanda: Enmaquetado de las ventanas y manejo de la API Flickr.
 * Andrea : Readme y búsqueda de información.
 
