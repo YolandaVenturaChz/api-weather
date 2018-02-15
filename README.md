@@ -32,7 +32,7 @@ Con esta API tú podrás:
 
 ## Formas de distribucción del proyecto
 
-* Yosselyn : Manejo de la API Swapi 
+* Yosselyn : Manejo de la API Swapi
 * Yolanda: Enmaquetado de las ventanas y manejo de la API Flickr.
 * Andrea : Readme y búsqueda de información.
 
@@ -41,7 +41,5 @@ Con esta API tú podrás:
 - HTML5.
 - CSS3.
 - EC6.
-- API de LINKEDIN.
 - API FLICKR.
 - Bootstrap.
-
