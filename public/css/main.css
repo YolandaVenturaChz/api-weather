@@ -1,66 +1,21 @@
-.vh100{
-    height:100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.vh90{
+  height:90vh;
 }
- .temperatura{
-    width: 100%;
-    height: 57vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+ .box{
+  padding: 25px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.6);
 }
-h2{
-    font-size: 15px;
+.flex-direction{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
-.title {
-    background: rgba(0,0,0,0.4);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: baseline;
-    color: white;
+a.btn.btn-secondary{
+  width: 100%;
 }
-ul{
-    width: 8em;
-    list-style: none;
-    padding: 0;
-}
-.ulD{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-span{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: baseline;
-}
-.btn {
-    width: 100%;
-    height: 5vh;
-}
-@media(min-width: 800px){
-    .temperatura {
-        width: 50%;
-        height: 80vh;
-    }
-    h2{
-        font-size: 25px;
-    }
-    
-    ul{
-        width: 11em;
-    }
-    span{
-        justify-content: space-between;
-        align-items: center;
-    }
-
+a.margin-top-2{
+  margin-top: 2vh;
 }
