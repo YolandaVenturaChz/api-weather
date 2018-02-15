@@ -1,5 +1,4 @@
 var latitude, longitude;
-console.log('Holi');
 
 /* Función que carga Google Maps y nos ubica en Lima por default */
 function initMap() {
@@ -16,7 +15,6 @@ function initMap() {
     map: map,
 
   });
-console.log('Holi');
 
 
 var infoWindow = new google.maps.InfoWindow({map: map});
