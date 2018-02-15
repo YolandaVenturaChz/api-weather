@@ -6,10 +6,10 @@ $(document).ready(function () {
       if (imagenes.readyState === 4 && imagenes.status === 200){
         const data = JSON.parse(this.responseText);
         const rpta = data.photos.photo[2];
-        var farmId = rpta.farm;
-        var serverId = rpta.server;
-        var id = rpta.id;
-        var secret = rpta.secret;
+        let farmId = rpta.farm;
+        let serverId = rpta.server;
+        let id = rpta.id;
+        let secret = rpta.secret;
         console.log(farmId + ", " + serverId + ", " + id + ", " + secret);
         $("#flickr").css({"background": 'url("https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg")',
         "background-position": "center center","background-repeat": "no-repeat","background-size": "cover",
