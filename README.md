@@ -1,15 +1,4 @@
 # DARK SKY WEATHER - Predicción del Clima
-
-* **Track:** _Common Core._
-* **Curso:** _CONSTRUYE UNA SINGLE PAGE APP (SPA) MULTI-USUARIO CONSUMIENDO DATA REMOTA._
-* **Unidad 4:** _A JUGAR CON WEB APIS!._
-* **Squad:** _8 Wonders._
-* **Integrantes:** _Andrea Tellería_ - _Yosseline Apcho_ - _Yolanda Ventura_.
-
-***
-
-## Sobre Dark Sky Weather
-
 - Es una empresa que ofrece datos oportunos y actualizados de las predicciones del clima de acuerdo a tu localización. Deberás obtener un API Key para usar sus servicios.
 
 Con esta API tú podrás:
@@ -17,6 +6,15 @@ Con esta API tú podrás:
 - Mostrar predicciones de clima de por lo menos los siguientes 7 días.
 
 ***
+![1](https://user-images.githubusercontent.com/32283689/36366254-4434a87e-151b-11e8-888d-7e533a4c23c8.PNG)
+
+### Desarrollado para [Laboratoria](http://laboratoria.la) 
+
+### Autora
++ Yolanda Ventura
+* Yosseline 
+* Andrea 
+
 
 ## Objetivo de este proyecto:
 
@@ -29,12 +27,6 @@ Con esta API tú podrás:
 - La vista es mobile first con soporte a Desktop.
 
 ***
-
-## Formas de distribucción del proyecto
-
-* Yosseline : Manejo de la API Swapi y últimos estilos en el maquetado.
-* Yolanda: Maquetado de las ventanas y manejo de la API Flickr.
-* Andrea : Readme y búsqueda de información.
 
 ## Herramientas usadas:
 
