@@ -5,8 +5,7 @@ Con esta API tú podrás:
 - Pedir la localización para obtener los datos del clima del día y lugar actual.
 - Mostrar predicciones de clima de por lo menos los siguientes 7 días.
 
-***
-![1](https://user-images.githubusercontent.com/32283689/36366254-4434a87e-151b-11e8-888d-7e533a4c23c8.PNG)
+***![1](https://user-images.githubusercontent.com/32283689/36367643-9a443b7a-1521-11e8-96b0-283e77bd9258.PNG)
 
 ### Desarrollado para [Laboratoria](http://laboratoria.la) 
 
